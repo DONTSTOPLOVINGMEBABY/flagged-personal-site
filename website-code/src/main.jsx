@@ -5,7 +5,7 @@ import './index.css'
 import { FlagProvider } from "feature-toggles-react-sdk"
 
 const osft_config =  {
-  apiKey : import.meta.env.VITE_OSFT_SITE_78E9_DEV_KEY, 
+  apiKey : import.meta.env.VITE_OSFT_SITE_78E9_PROD_KEY, 
   refreshRate : '5s', 
 }
 
