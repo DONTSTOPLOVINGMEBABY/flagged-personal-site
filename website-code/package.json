@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "vite build && cp -R dist/* ../site && rimraf dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build && echo henryjacobs.us > dist/CNAME",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "feature-toggles-react-sdk": "^1.0.3",

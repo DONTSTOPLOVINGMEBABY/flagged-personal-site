@@ -25,7 +25,7 @@ import redis_svg from "../../assets/redis.svg"
 function OSFTWebApp () {
 
     const titleFlag = useFlag('osft-project-section.project-title')
-    const descriptionFlag = useFlag('osft-project-section.description')
+    const descriptionFlag = useFlag('osft-project-section.project-description')
     const iconsFlag = useFlag('osft-project-section.icons')
     const buttonsFlag = useFlag('osft-project-section.buttons')
     const demoVideoFlag = useFlag('osft-project-section.demo-video')
