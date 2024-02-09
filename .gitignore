@@ -1,0 +1,6 @@
+.gitmodules 
+.env
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
